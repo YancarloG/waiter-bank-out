@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C24EC142B69D1CF00436584 /* Bank_ezeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24EC132B69D1CF00436584 /* Bank_ezeApp.swift */; };
+		2C24EC162B69D1CF00436584 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24EC152B69D1CF00436584 /* ContentView.swift */; };
+		2C24EC182B69D1DA00436584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C24EC172B69D1DA00436584 /* Assets.xcassets */; };
+		2C24EC1B2B69D1DA00436584 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C24EC1A2B69D1DA00436584 /* Preview Assets.xcassets */; };
+		2C24EC252B69D1DB00436584 /* Bank_ezeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24EC242B69D1DB00436584 /* Bank_ezeTests.swift */; };
+		2C24EC2F2B69D1DB00436584 /* Bank_ezeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24EC2E2B69D1DB00436584 /* Bank_ezeUITests.swift */; };
+		2C24EC312B69D1DB00436584 /* Bank_ezeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24EC302B69D1DB00436584 /* Bank_ezeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C24EC212B69D1DB00436584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C24EC082B69D1CF00436584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C24EC0F2B69D1CF00436584;
+			remoteInfo = "Bank-eze";
+		};
+		2C24EC2B2B69D1DB00436584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C24EC082B69D1CF00436584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C24EC0F2B69D1CF00436584;
+			remoteInfo = "Bank-eze";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C24EC102B69D1CF00436584 /* Bank-eze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bank-eze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C24EC132B69D1CF00436584 /* Bank_ezeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank_ezeApp.swift; sourceTree = "<group>"; };
+		2C24EC152B69D1CF00436584 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C24EC172B69D1DA00436584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C24EC1A2B69D1DA00436584 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C24EC202B69D1DB00436584 /* Bank-ezeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bank-ezeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C24EC242B69D1DB00436584 /* Bank_ezeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank_ezeTests.swift; sourceTree = "<group>"; };
+		2C24EC2A2B69D1DB00436584 /* Bank-ezeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bank-ezeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C24EC2E2B69D1DB00436584 /* Bank_ezeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank_ezeUITests.swift; sourceTree = "<group>"; };
+		2C24EC302B69D1DB00436584 /* Bank_ezeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank_ezeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C24EC0D2B69D1CF00436584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C24EC1D2B69D1DB00436584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C24EC272B69D1DB00436584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C24EC072B69D1CF00436584 = {
+			isa = PBXGroup;
+			children = (
+				2C24EC122B69D1CF00436584 /* Bank-eze */,
+				2C24EC232B69D1DB00436584 /* Bank-ezeTests */,
+				2C24EC2D2B69D1DB00436584 /* Bank-ezeUITests */,
+				2C24EC112B69D1CF00436584 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C24EC112B69D1CF00436584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C24EC102B69D1CF00436584 /* Bank-eze.app */,
+				2C24EC202B69D1DB00436584 /* Bank-ezeTests.xctest */,
+				2C24EC2A2B69D1DB00436584 /* Bank-ezeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C24EC122B69D1CF00436584 /* Bank-eze */ = {
+			isa = PBXGroup;
+			children = (
+				2C24EC132B69D1CF00436584 /* Bank_ezeApp.swift */,
+				2C24EC152B69D1CF00436584 /* ContentView.swift */,
+				2C24EC172B69D1DA00436584 /* Assets.xcassets */,
+				2C24EC192B69D1DA00436584 /* Preview Content */,
+			);
+			path = "Bank-eze";
+			sourceTree = "<group>";
+		};
+		2C24EC192B69D1DA00436584 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C24EC1A2B69D1DA00436584 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C24EC232B69D1DB00436584 /* Bank-ezeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C24EC242B69D1DB00436584 /* Bank_ezeTests.swift */,
+			);
+			path = "Bank-ezeTests";
+			sourceTree = "<group>";
+		};
+		2C24EC2D2B69D1DB00436584 /* Bank-ezeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C24EC2E2B69D1DB00436584 /* Bank_ezeUITests.swift */,
+				2C24EC302B69D1DB00436584 /* Bank_ezeUITestsLaunchTests.swift */,
+			);
+			path = "Bank-ezeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C24EC0F2B69D1CF00436584 /* Bank-eze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C24EC342B69D1DB00436584 /* Build configuration list for PBXNativeTarget "Bank-eze" */;
+			buildPhases = (
+				2C24EC0C2B69D1CF00436584 /* Sources */,
+				2C24EC0D2B69D1CF00436584 /* Frameworks */,
+				2C24EC0E2B69D1CF00436584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bank-eze";
+			productName = "Bank-eze";
+			productReference = 2C24EC102B69D1CF00436584 /* Bank-eze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C24EC1F2B69D1DB00436584 /* Bank-ezeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C24EC372B69D1DB00436584 /* Build configuration list for PBXNativeTarget "Bank-ezeTests" */;
+			buildPhases = (
+				2C24EC1C2B69D1DB00436584 /* Sources */,
+				2C24EC1D2B69D1DB00436584 /* Frameworks */,
+				2C24EC1E2B69D1DB00436584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C24EC222B69D1DB00436584 /* PBXTargetDependency */,
+			);
+			name = "Bank-ezeTests";
+			productName = "Bank-ezeTests";
+			productReference = 2C24EC202B69D1DB00436584 /* Bank-ezeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C24EC292B69D1DB00436584 /* Bank-ezeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C24EC3A2B69D1DB00436584 /* Build configuration list for PBXNativeTarget "Bank-ezeUITests" */;
+			buildPhases = (
+				2C24EC262B69D1DB00436584 /* Sources */,
+				2C24EC272B69D1DB00436584 /* Frameworks */,
+				2C24EC282B69D1DB00436584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C24EC2C2B69D1DB00436584 /* PBXTargetDependency */,
+			);
+			name = "Bank-ezeUITests";
+			productName = "Bank-ezeUITests";
+			productReference = 2C24EC2A2B69D1DB00436584 /* Bank-ezeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C24EC082B69D1CF00436584 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2C24EC0F2B69D1CF00436584 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2C24EC1F2B69D1DB00436584 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2C24EC0F2B69D1CF00436584;
+					};
+					2C24EC292B69D1DB00436584 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2C24EC0F2B69D1CF00436584;
+					};
+				};
+			};
+			buildConfigurationList = 2C24EC0B2B69D1CF00436584 /* Build configuration list for PBXProject "Bank-eze" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C24EC072B69D1CF00436584;
+			productRefGroup = 2C24EC112B69D1CF00436584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C24EC0F2B69D1CF00436584 /* Bank-eze */,
+				2C24EC1F2B69D1DB00436584 /* Bank-ezeTests */,
+				2C24EC292B69D1DB00436584 /* Bank-ezeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C24EC0E2B69D1CF00436584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C24EC1B2B69D1DA00436584 /* Preview Assets.xcassets in Resources */,
+				2C24EC182B69D1DA00436584 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C24EC1E2B69D1DB00436584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C24EC282B69D1DB00436584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C24EC0C2B69D1CF00436584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C24EC162B69D1CF00436584 /* ContentView.swift in Sources */,
+				2C24EC142B69D1CF00436584 /* Bank_ezeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C24EC1C2B69D1DB00436584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C24EC252B69D1DB00436584 /* Bank_ezeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C24EC262B69D1DB00436584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C24EC312B69D1DB00436584 /* Bank_ezeUITestsLaunchTests.swift in Sources */,
+				2C24EC2F2B69D1DB00436584 /* Bank_ezeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C24EC222B69D1DB00436584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C24EC0F2B69D1CF00436584 /* Bank-eze */;
+			targetProxy = 2C24EC212B69D1DB00436584 /* PBXContainerItemProxy */;
+		};
+		2C24EC2C2B69D1DB00436584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C24EC0F2B69D1CF00436584 /* Bank-eze */;
+			targetProxy = 2C24EC2B2B69D1DB00436584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C24EC322B69D1DB00436584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C24EC332B69D1DB00436584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C24EC352B69D1DB00436584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bank-eze/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q4LX38MK5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yangineering.Bank-eze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C24EC362B69D1DB00436584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bank-eze/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q4LX38MK5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yangineering.Bank-eze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C24EC382B69D1DB00436584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yangineering.Bank-ezeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bank-eze.app/Bank-eze";
+			};
+			name = Debug;
+		};
+		2C24EC392B69D1DB00436584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yangineering.Bank-ezeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bank-eze.app/Bank-eze";
+			};
+			name = Release;
+		};
+		2C24EC3B2B69D1DB00436584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yangineering.Bank-ezeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bank-eze";
+			};
+			name = Debug;
+		};
+		2C24EC3C2B69D1DB00436584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yangineering.Bank-ezeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bank-eze";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C24EC0B2B69D1CF00436584 /* Build configuration list for PBXProject "Bank-eze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C24EC322B69D1DB00436584 /* Debug */,
+				2C24EC332B69D1DB00436584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C24EC342B69D1DB00436584 /* Build configuration list for PBXNativeTarget "Bank-eze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C24EC352B69D1DB00436584 /* Debug */,
+				2C24EC362B69D1DB00436584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C24EC372B69D1DB00436584 /* Build configuration list for PBXNativeTarget "Bank-ezeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C24EC382B69D1DB00436584 /* Debug */,
+				2C24EC392B69D1DB00436584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C24EC3A2B69D1DB00436584 /* Build configuration list for PBXNativeTarget "Bank-ezeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C24EC3B2B69D1DB00436584 /* Debug */,
+				2C24EC3C2B69D1DB00436584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C24EC082B69D1CF00436584 /* Project object */;
+}
